@@ -12,5 +12,11 @@
   "dependencies": {
     "apollo-server": "^3.9.0",
     "graphql": "^16.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.0",
+    "prettier": "^2.7.1"
   }
 }
