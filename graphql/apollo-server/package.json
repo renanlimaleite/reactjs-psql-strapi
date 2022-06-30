@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r sucrase/register src/index.js"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,8 @@
     "eslint": "^8.18.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.0",
-    "prettier": "^2.7.1"
+    "nodemon": "^2.0.18",
+    "prettier": "^2.7.1",
+    "sucrase": "^3.22.0"
   }
 }
